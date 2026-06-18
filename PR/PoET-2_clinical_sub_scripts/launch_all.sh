@@ -1,0 +1,23 @@
+#!/bin/bash
+# Launch all 20 clinical substitution jobs
+
+sbatch poet2_clinical_subs_job0.sh
+sbatch poet2_clinical_subs_job1.sh
+sbatch poet2_clinical_subs_job2.sh
+sbatch poet2_clinical_subs_job3.sh
+sbatch poet2_clinical_subs_job4.sh
+sbatch poet2_clinical_subs_job5.sh
+sbatch poet2_clinical_subs_job6.sh
+sbatch poet2_clinical_subs_job7.sh
+sbatch poet2_clinical_subs_job8.sh
+sbatch poet2_clinical_subs_job9.sh
+sbatch poet2_clinical_subs_job10.sh
+sbatch poet2_clinical_subs_job11.sh
+sbatch poet2_clinical_subs_job12.sh
+sbatch poet2_clinical_subs_job13.sh
+sbatch poet2_clinical_subs_job14.sh
+sbatch poet2_clinical_subs_job15.sh
+sbatch poet2_clinical_subs_job16.sh
+sbatch poet2_clinical_subs_job17.sh
+sbatch poet2_clinical_subs_job18.sh
+sbatch poet2_clinical_subs_job19.sh
