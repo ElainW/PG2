@@ -72,3 +72,4 @@ scoring_scripts/test/GEMME_scripts/
 scoring_scripts/test/TranceptEVE_aggregation_coefficients_log
 scoring_scripts/test/s3f_dataset/
 scoring_scripts/test/slurm/
+scoring_scripts/test/pg_baselines/__pycache__/
