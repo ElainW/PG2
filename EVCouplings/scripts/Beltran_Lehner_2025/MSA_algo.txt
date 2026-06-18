@@ -1,0 +1,134 @@
+# initial run at bitscore 0.7
+module load conda/miniforge3/24.11.3-0
+mamba activate /n/groups/marks/projects/marks_lab_and_oatml/ProteinGym2/EVCouplings/envs/pg2_evc
+
+import os
+import sys
+import pandas as pd
+import numpy as np
+from evcouplings.align.alignment import Alignment
+from evcouplings.utils import read_config_file, write_config_file
+
+# INPUT
+MAIN_DIR=... e.g. /n/groups/marks/projects/marks_lab_and_oatml/ProteinGym2/EVCouplings
+PAPER_DIR=... e.g. Beltran_Lehner_2025
+BITSCORE=0.7
+
+database = 'uniref100'
+root = "/n/groups/marks/projects/marks_lab_and_oatml/ProteinGym2/EVCouplings"
+# change all the directories below
+ref_seq_folder = f"{MAIN_DIR}/input/{PAPER_DIR}/fasta" # one protein sequence per fasta file
+output_folder = f"{MAIN_DIR}/output/{PAPER_DIR}/{database}"
+
+protein = ...
+fasta_sequence_file = ref_seq_folder + os.sep + protein + ".fa" 
+colcov = '70' # No constraint on column coverage
+theta = str(1 - theta) # 1 - 0.2 for non-virus, 1-0.01 for virus
+region = "" # usually leave empty
+
+config = f"{root}/input/evmutation_proteingym_config_uniref100.txt"
+job_name_prefix = output_folder + os.sep + protein + os.sep + protein +"_bit_"+BITSCORE+ "_theta_" + theta + "_colcov_" + colcov
+os.system("evcouplings --protein "+protein+" -b "+BITSCORE+" -s "+fasta_sequence_file+" --theta "+theta+" --colcov "+colcov+" --prefix "+job_name_prefix+" "+config+" --yolo")
+
+# resources to run the above
+1G, 1h, 1 cpu (everything else check the config file)
+
+# OUTPUT
+1. .a2m file
+2. aln_stats file
+3. weights file
+4. align_config file
+
+# check whether the alignment is good enough
+Check the f: {job_name_prefix}_job_statistics_summary.csv file
+1. If <70% of the columns covered by at least 70% of the sequences in the final alignment (perc_cov), or num_seqs < 100:
+lower the bitscore by 0.5 (not lower than 0)
+2. If Neff/L > 100 (Neff divided by seqlen):
+increase the bitscore by 0.5 (not higher than 2, skip 1.0)
+3. If Neff/L < 1:
+lower the bitscore by 0.5 (not lower than 0)
+if still < 1 after three tries, take the alignment with the highest Neff/L
+
+For design sequences, as long as the Neff/L is close to 100, it's ok.
+
+# iterate above till good and proceed to stage two
+
+# INPUT
+1. .a2m file (updated in this stage)
+2. align_config file (updated in this stage)
+
+config = f"{root}/input/evmutation_proteingym_config_{database}_couplings_only.txt" (everything's the same except for commenting out all stages other than align)
+
+def uppercase_columns(aln):
+    """
+    (Reverse the lowercase_column function)
+    Change a subset of columns to lowercase character
+    and replace "." gaps with "-" gaps
+    Change all lower case characters to upper case characters
+
+    Parameters
+    ----------
+    aln : Alignment object
+
+    Returns
+    -------
+    Alignment
+        Alignment with all uppercase columns
+        and only "-" gaps
+    """
+    columns = np.array([s.islower() for s in aln.matrix[0, :]])
+    return aln.apply(
+        columns=columns, func=np.char.upper
+    ).replace(
+        ".", "-", columns=columns
+    )
+
+
+def update_align_cfg(colcov_70_cfg, colcov_0_cfg, colcov_0_alignment_file, seq_len):
+    """
+    Update the alignment output config file 
+    from minimum column coverage = 70
+    to look more like that from minimum column coverage = 0
+    as this is needed for couplings input at minimum column coverage = 0
+
+    Note: This new alignment output config file has to be in the ${prefix}_colcov_0/align directory
+
+    Parameters
+    ----------
+    colcov_70_cfg (str): align stage output config file name from minimum column coverage = 70
+    colcov_0_cfg (str): align stage output config file name from minimum column coverage = 0
+    colcov_0_alignment_file (str): file name of hand-made align stage output alignment
+        (converted from colcov_70 to colcov_0)
+    seq_len (int): full length of the query sequence from the alignment file
+
+    Returns
+    -------
+    None
+    """
+    config = read_config_file(colcov_70_cfg, preserve_order=True)
+    config["alignment_file"] = colcov_0_alignment_file
+    config["num_sites"] = seq_len
+    config["segments"][0][5] = list(range(1, seq_len+1)) 
+    
+    write_config_file(colcov_0_cfg, config)
+
+
+# test for couplings only
+job_name_prefix = output_folder + os.sep + protein + os.sep + protein +"_bit_"+bitscore+ "_theta_" + theta + "_colcov_70"
+job_name_prefix_colcov0 = output_folder + os.sep + protein + os.sep + protein +"_bit_"+bitscore+ "_theta_" + theta + "_colcov_0"
+aln_prefix = job_name_prefix + "/align/" + protein +"_bit_"+bitscore+ "_theta_" + theta 
+aln_prefix_colcov0 = job_name_prefix_colcov0 + "/align/" + protein + "_bit_" + bitscore + "_theta_" + theta
+colcov70_alignment = aln_prefix + "_colcov_70" + ".a2m"
+colcov0_alignment = aln_prefix + "_colcov_0" + ".a2m"
+colcov70_alignment_cfg = aln_prefix + "_colcov_70" + "_align.outcfg"
+colcov0_alignment_cfg = aln_prefix_colcov0 + "_colcov_0" + "_align.outcfg"
+with open(colcov70_alignment, "r") as infile, open(colcov0_alignment, 'w') as outfile:
+    aln = Alignment.from_file(infile, format="fasta")
+    seq_len = aln.L
+    out_aln = uppercase_columns(aln)
+    out_aln.write(outfile, format="fasta", width=80)
+update_align_cfg(colcov70_alignment_cfg, colcov0_alignment_cfg, colcov0_alignment, seq_len)
+os.system("evcouplings --protein "+protein+" --stages couplings" + " -a "+colcov0_alignment+" -s "+fasta_sequence_file+" --theta "+theta+" --colcov 0"+" --prefix "+job_name_prefix_colcov0+" "+config+" --account marks --yolo")
+
+# OUTPUT
+1. couplings model with score for each position in the query sequence, regardless of upper/lower case
