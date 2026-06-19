@@ -135,11 +135,11 @@ class MSA_processing:
             # Identify fragments with too many gaps
             seq_gaps_frac = gaps_array.mean(axis=1)
             seq_below_threshold = seq_gaps_frac <= self.threshold_sequence_frac_gaps
-            print("Proportion of sequences dropped due to fraction of gaps: "+str(round(float(1 - seq_below_threshold.sum()/seq_below_threshold.shape[0])*100,2))+"%")
+#             print("Proportion of sequences dropped due to fraction of gaps: "+str(round(float(1 - seq_below_threshold.sum()/seq_below_threshold.shape[0])*100,2))+"%")
             # Identify focus columns
             columns_gaps_frac = gaps_array[seq_below_threshold].mean(axis=0)
             index_cols_below_threshold = columns_gaps_frac <= self.threshold_focus_cols_frac_gaps
-            print("Proportion of non-focus columns removed: "+str(round(float(1 - index_cols_below_threshold.sum()/index_cols_below_threshold.shape[0])*100,2))+"%")
+#             print("Proportion of non-focus columns removed: "+str(round(float(1 - index_cols_below_threshold.sum()/index_cols_below_threshold.shape[0])*100,2))+"%")
             # Lower case non focus cols and filter fragment sequences
             msa_df['sequence'] = msa_df['sequence'].apply(lambda x: ''.join([aa.upper() if upper_case_ind else aa.lower() for aa, upper_case_ind in zip(x, index_cols_below_threshold)]))
             msa_df = msa_df[seq_below_threshold]
@@ -191,7 +191,6 @@ class MSA_processing:
                 del self.seq_name_to_sequence[seq_name]
 
         # Encode the sequences
-        print("Encoding sequences")
         self.one_hot_encoding = np.zeros((len(self.seq_name_to_sequence.keys()),len(self.focus_cols),len(self.alphabet)))
         for i,seq_name in enumerate(self.seq_name_to_sequence.keys()):
             sequence = self.seq_name_to_sequence[seq_name]
