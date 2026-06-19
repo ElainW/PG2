@@ -4,7 +4,7 @@
 #SBATCH --gres=gpu:l40s:1
 #SBATCH --mem=12G
 #SBATCH --cpus-per-task=1
-#SBATCH --time=08:30:00
+#SBATCH --time=03:30:00
 #SBATCH --output=logs/poet2_clinical_indels_rerun_%j.out
 #SBATCH --error=logs/poet2_clinical_indels_rerun_%j.err
 
