@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+TNNC2_HUMAN_Beltran_2025_PF13499_1,61175,61362,0.996952511326228,5848.206131193949,70.46031483366204,83,69,0.8313253012048193

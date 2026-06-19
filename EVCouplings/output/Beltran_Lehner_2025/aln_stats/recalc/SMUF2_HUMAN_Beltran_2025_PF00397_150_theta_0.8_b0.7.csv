@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+SMUF2_HUMAN_Beltran_2025_PF00397_150,94691,94737,0.9995144452537024,1627.252975917156,33.20924440647257,49,35,0.7142857142857143

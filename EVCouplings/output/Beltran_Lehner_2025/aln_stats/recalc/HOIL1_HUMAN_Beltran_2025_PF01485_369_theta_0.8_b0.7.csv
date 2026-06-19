@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+HOIL1_HUMAN_Beltran_2025_PF01485_369,3123,3129,0.9980824544582934,435.2340676847514,10.121722504296544,43,43,1.0

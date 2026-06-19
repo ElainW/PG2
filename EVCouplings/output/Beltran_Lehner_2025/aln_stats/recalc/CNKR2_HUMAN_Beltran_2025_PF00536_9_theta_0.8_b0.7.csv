@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+CNKR2_HUMAN_Beltran_2025_PF00536_9,34217,34239,0.9993574578696808,1266.3966820663068,20.101534635973124,63,55,0.873015873015873

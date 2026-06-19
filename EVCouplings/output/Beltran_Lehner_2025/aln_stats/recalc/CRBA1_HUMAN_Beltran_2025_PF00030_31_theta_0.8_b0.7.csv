@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+CRBA1_HUMAN_Beltran_2025_PF00030_31,48032,48351,0.9934024115323364,970.5231573092694,10.904754576508646,89,81,0.9101123595505618

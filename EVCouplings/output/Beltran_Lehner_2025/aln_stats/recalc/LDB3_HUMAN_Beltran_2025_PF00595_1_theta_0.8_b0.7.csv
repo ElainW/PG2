@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+LDB3_HUMAN_Beltran_2025_PF00595_1,58045,58106,0.9989501944721716,1026.1862181098793,12.363689374817822,83,79,0.9518072289156626

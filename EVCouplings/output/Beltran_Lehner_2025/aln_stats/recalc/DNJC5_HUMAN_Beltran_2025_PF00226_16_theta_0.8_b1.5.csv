@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+DNJC5_HUMAN_Beltran_2025_PF00226_16,68683,68821,0.9979947980994174,3652.899752994433,58.917737951523115,62,61,0.9838709677419355

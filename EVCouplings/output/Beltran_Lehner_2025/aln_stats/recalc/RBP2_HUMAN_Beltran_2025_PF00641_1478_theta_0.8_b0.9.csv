@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+RBP2_HUMAN_Beltran_2025_PF00641_1478,27471,27492,0.9992361414229594,1248.665091638854,40.27951908512432,31,26,0.8387096774193549

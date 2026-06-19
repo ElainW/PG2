@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+PO5F1_HUMAN_Beltran_2025_PF00157_134,23052,23125,0.9968432432432432,138.61725795254085,1.7546488348422893,79,75,0.9493670886075949

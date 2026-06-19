@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+MRTFA_HUMAN_Beltran_2025_PF02037_341,41086,41158,0.9982506438602459,4066.0145280050215,94.55847739546562,43,34,0.7906976744186046

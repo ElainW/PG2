@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+SHOX_HUMAN_Beltran_2025_PF00046_119,236283,236854,0.997589232185228,4481.988309798053,80.03550553210809,56,55,0.9821428571428571

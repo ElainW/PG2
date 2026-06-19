@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+EP300_HUMAN_Beltran_2025_PF02172_567,9493,9501,0.9991579833701716,164.50626548381868,1.9584079224264128,84,82,0.9761904761904762

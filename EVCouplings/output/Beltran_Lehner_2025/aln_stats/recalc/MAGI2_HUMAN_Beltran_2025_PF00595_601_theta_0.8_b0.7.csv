@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+MAGI2_HUMAN_Beltran_2025_PF00595_601,20015,20026,0.9994507140717068,146.0341018184185,1.7809036807124206,82,81,0.9878048780487805

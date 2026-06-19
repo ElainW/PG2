@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+ITSN2_HUMAN_Beltran_2025_PF14604_1129,137597,137678,0.9994116707099173,3442.045250840035,62.58264092436427,55,51,0.9272727272727272

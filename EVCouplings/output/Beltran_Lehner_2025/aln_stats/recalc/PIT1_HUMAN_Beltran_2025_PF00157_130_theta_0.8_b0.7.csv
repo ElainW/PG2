@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+PIT1_HUMAN_Beltran_2025_PF00157_130,23248,23311,0.9972974132383853,118.23289168779624,1.7135201693883513,69,68,0.9855072463768116

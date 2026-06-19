@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+ATX7_HUMAN_Beltran_2025_PF08313_334,8135,8141,0.9992629898046923,253.0594975243328,4.148516352857915,61,57,0.9344262295081968

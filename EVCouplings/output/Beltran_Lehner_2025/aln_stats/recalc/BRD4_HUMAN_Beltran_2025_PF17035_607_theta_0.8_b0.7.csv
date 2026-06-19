@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+BRD4_HUMAN_Beltran_2025_PF17035_607,15537,15555,0.9988428158148506,606.5289750149013,9.052671268879124,67,64,0.9552238805970149

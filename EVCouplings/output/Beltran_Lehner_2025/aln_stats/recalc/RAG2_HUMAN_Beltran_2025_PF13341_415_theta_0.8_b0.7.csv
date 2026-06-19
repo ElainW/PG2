@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+RAG2_HUMAN_Beltran_2025_PF13341_415,1295,1330,0.9736842105263158,15.847523668761026,0.20581199569819514,77,77,1.0

@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+FUBP1_HUMAN_Beltran_2025_PF00013_184,87716,87775,0.999327826829963,2155.8653123179574,29.13331503132375,74,65,0.8783783783783784

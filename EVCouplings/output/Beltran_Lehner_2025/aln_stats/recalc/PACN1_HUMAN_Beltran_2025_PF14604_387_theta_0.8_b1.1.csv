@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+PACN1_HUMAN_Beltran_2025_PF14604_387,15072,15082,0.9993369579631348,251.4825009240101,4.335905188345002,58,56,0.9655172413793104

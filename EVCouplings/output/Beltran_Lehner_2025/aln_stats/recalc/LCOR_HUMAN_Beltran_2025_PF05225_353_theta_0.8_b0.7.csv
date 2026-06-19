@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+LCOR_HUMAN_Beltran_2025_PF05225_353,15838,15848,0.9993690055527511,2837.669271824808,67.56355409106686,42,35,0.8333333333333334

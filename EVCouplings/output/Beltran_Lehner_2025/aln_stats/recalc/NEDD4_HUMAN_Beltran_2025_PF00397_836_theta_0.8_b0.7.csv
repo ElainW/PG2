@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+NEDD4_HUMAN_Beltran_2025_PF00397_836,159217,159293,0.9995228917780442,2409.3326801940693,52.37679739552325,46,34,0.7391304347826086

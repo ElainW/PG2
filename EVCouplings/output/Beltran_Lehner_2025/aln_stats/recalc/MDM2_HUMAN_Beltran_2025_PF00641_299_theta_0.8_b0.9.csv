@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+MDM2_HUMAN_Beltran_2025_PF00641_299,3873,3876,0.9992260061919505,131.18685645303427,4.523684705277043,29,26,0.896551724137931

@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+CHD4_HUMAN_Beltran_2025_PF00628_444,151289,151366,0.9994912992349669,4329.742129229144,81.6932477213046,53,44,0.8301886792452831

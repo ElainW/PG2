@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+TCRG1_HUMAN_Beltran_2025_PF01846_897,4870,4874,0.9991793188346327,264.01468323374274,4.474825139554961,59,57,0.9661016949152542

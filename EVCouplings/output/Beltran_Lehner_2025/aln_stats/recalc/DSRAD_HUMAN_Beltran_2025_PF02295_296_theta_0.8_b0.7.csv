@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+DSRAD_HUMAN_Beltran_2025_PF02295_296,4249,4256,0.9983552631578947,288.81438068851435,4.584355249024037,63,57,0.9047619047619048

@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+MPDZ_HUMAN_Beltran_2025_PF00595_1003,6672,6675,0.9995505617977528,125.2873874300623,1.4237203117052533,88,85,0.9659090909090909

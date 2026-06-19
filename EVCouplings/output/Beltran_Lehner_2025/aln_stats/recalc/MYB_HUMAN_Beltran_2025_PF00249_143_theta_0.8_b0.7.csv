@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+MYB_HUMAN_Beltran_2025_PF00249_143,81023,81115,0.9988658078037355,4005.520188889032,64.60516433691987,62,52,0.8387096774193549

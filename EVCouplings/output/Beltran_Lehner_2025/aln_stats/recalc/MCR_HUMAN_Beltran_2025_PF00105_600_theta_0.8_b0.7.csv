@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+MCR_HUMAN_Beltran_2025_PF00105_600,103169,103398,0.9977852569682198,3315.3063908028007,43.622452510563164,76,70,0.9210526315789473

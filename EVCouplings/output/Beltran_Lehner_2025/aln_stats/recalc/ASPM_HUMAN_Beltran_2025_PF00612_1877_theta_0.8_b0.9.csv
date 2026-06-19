@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+ASPM_HUMAN_Beltran_2025_PF00612_1877,121628,121650,0.9998191533086724,1712.843847031927,90.14967615957511,19,16,0.8421052631578947

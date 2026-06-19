@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+MECP2_HUMAN_Beltran_2025_PF01429_91,12521,12534,0.9989628211265358,539.0050812304468,7.486181683756205,72,59,0.8194444444444444

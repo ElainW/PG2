@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+ASB14_HUMAN_Beltran_2025_PF07525_532,29706,29746,0.9986552813823707,2172.1220543589475,52.97858669168165,41,36,0.8780487804878049

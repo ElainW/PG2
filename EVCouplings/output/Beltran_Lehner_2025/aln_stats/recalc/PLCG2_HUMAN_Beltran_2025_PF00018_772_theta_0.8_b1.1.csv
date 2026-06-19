@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+PLCG2_HUMAN_Beltran_2025_PF00018_772,51225,51253,0.9994536905156771,866.9287537847928,15.480870603299872,56,51,0.9107142857142857

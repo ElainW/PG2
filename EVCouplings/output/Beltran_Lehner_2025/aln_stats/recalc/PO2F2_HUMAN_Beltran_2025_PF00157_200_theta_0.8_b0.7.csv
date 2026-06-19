@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+PO2F2_HUMAN_Beltran_2025_PF00157_200,23353,23418,0.9972243573319669,123.49839680672186,1.764262811524598,70,69,0.9857142857142858

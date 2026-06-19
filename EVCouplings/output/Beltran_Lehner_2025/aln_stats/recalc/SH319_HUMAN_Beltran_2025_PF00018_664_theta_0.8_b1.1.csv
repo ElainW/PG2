@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+SH319_HUMAN_Beltran_2025_PF00018_664,146458,146525,0.9995427401467326,3467.225806769496,61.91474654945529,56,51,0.9107142857142857

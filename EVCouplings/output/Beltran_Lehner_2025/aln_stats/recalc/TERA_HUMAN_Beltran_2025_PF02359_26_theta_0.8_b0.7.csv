@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+TERA_HUMAN_Beltran_2025_PF02359_26,5785,5795,0.998274374460742,261.45074573334904,3.227786984362334,81,81,1.0

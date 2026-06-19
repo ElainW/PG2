@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+SYEP_HUMAN_Beltran_2025_PF00458_827,18242,18267,0.9986314118355505,1295.0847355172123,24.90547568302331,52,47,0.9038461538461539

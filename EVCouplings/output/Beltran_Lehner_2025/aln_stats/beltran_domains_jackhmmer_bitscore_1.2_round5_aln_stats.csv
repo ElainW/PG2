@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+P02417_PF01281_1,46904,47022,0.9974905363446898,5592.447192579603,118.98823813999157,47,45,0.9574468085106383

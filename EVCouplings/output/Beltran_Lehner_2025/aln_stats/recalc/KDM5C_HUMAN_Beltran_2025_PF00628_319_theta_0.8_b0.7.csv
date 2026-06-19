@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+KDM5C_HUMAN_Beltran_2025_PF00628_319,150533,150600,0.9995551128818061,4582.509066652715,83.31834666641299,55,45,0.8181818181818182

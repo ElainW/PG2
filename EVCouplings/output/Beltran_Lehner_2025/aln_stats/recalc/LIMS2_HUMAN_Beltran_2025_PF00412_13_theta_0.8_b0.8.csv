@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+LIMS2_HUMAN_Beltran_2025_PF00412_13,123074,123147,0.9994072125183724,2567.0527198836858,43.50936813362179,59,53,0.8983050847457628

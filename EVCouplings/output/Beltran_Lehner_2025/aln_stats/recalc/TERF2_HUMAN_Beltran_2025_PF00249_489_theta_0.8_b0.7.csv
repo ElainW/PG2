@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+TERF2_HUMAN_Beltran_2025_PF00249_489,16002,16011,0.9994378864530635,1507.2117123866526,27.911328007160233,54,49,0.9074074074074074

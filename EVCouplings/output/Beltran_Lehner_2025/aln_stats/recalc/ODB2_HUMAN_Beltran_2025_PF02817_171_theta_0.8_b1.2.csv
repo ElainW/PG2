@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+ODB2_HUMAN_Beltran_2025_PF02817_171,39465,39491,0.9993416221417538,2048.0572907541223,46.546756608048234,44,38,0.8636363636363636

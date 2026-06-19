@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+CHD7_HUMAN_Beltran_2025_PF07533_2564,24096,24102,0.9997510580034852,409.1606193476439,9.741919508277235,42,38,0.9047619047619048

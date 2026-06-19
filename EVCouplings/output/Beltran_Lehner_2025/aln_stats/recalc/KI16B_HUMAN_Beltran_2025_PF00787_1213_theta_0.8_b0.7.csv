@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+KI16B_HUMAN_Beltran_2025_PF00787_1213,72373,72473,0.9986201757896044,3650.652999517753,59.846770483897586,61,56,0.9180327868852459

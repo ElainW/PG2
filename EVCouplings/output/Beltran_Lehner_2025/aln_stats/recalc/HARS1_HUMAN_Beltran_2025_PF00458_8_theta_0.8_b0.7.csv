@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+HARS1_HUMAN_Beltran_2025_PF00458_8,21542,21563,0.9990261095394889,1699.1690497196369,44.714974992622025,38,35,0.9210526315789473

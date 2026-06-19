@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+RASA1_HUMAN_Beltran_2025_PF00018_281,185109,185206,0.9994762588685032,5091.679678894166,83.47015867039616,61,52,0.8524590163934426

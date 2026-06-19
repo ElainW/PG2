@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+HNRPK_HUMAN_Beltran_2025_PF00013_385,119375,119490,0.9990375763662231,3038.6023189186585,41.06219349890079,74,65,0.8783783783783784

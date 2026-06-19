@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+CRYGS_HUMAN_Beltran_2025_PF00030_96,50081,50425,0.9931779871095686,1121.7227680814158,13.848429235573034,81,78,0.9629629629629629

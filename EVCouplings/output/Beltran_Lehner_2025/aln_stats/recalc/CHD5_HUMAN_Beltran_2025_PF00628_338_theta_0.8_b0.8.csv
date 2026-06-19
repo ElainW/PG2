@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+CHD5_HUMAN_Beltran_2025_PF00628_338,152115,152194,0.9994809256606699,4374.254583462055,82.53310534834065,53,44,0.8301886792452831

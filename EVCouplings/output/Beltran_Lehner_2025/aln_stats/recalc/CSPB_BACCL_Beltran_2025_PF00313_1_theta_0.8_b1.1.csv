@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+CSPB_BACCL_Beltran_2025_PF00313_1,83188,83445,0.9969201270297801,6267.899560494229,94.96817515900348,66,62,0.9393939393939394

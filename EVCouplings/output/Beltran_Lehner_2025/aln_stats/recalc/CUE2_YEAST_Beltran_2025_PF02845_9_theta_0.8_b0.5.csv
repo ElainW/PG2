@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+CUE2_YEAST_Beltran_2025_PF02845_9,31180,31197,0.9994550758085713,3404.814532910953,87.30293674130648,39,32,0.8205128205128205

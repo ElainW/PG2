@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+SALL4_HUMAN_Beltran_2025_PF00096_899,44300,44307,0.9998420114203174,931.6693222321878,42.348605556008536,22,21,0.9545454545454546

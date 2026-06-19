@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+RNF32_HUMAN_Beltran_2025_PF00612_189,33883,33893,0.9997049538252737,721.1614776491559,37.95586724469242,19,15,0.7894736842105263

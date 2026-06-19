@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+NPHP1_HUMAN_Beltran_2025_PF00018_152,166708,166807,0.9994064997272297,5318.991756302339,88.64986260503899,60,51,0.85

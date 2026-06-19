@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+SMRC1_HUMAN_Beltran_2025_PF00249_620,18601,18607,0.9996775407104853,1070.4881653593866,24.329276485440605,44,41,0.9318181818181818

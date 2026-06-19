@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+SHRM4_HUMAN_Beltran_2025_PF00595_7,38428,38462,0.9991160106078727,719.0497117101627,8.361043159420497,86,78,0.9069767441860465

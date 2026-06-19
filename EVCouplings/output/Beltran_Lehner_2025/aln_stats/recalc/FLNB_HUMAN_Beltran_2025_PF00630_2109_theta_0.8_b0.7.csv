@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+FLNB_HUMAN_Beltran_2025_PF00630_2109,43344,43375,0.99928530259366,552.3743210037896,7.081722064151149,78,67,0.8589743589743589

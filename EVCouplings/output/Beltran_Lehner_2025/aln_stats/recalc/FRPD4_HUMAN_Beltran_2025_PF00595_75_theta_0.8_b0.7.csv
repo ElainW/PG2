@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+FRPD4_HUMAN_Beltran_2025_PF00595_75,6031,6039,0.9986752773638019,118.95226959388683,1.4869033699235854,80,77,0.9625

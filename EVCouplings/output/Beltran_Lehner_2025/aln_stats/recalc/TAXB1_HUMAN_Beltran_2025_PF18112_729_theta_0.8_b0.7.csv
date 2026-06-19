@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+TAXB1_HUMAN_Beltran_2025_PF18112_729,10305,10312,0.9993211792086889,673.3567246877342,25.898335564912852,26,25,0.9615384615384616

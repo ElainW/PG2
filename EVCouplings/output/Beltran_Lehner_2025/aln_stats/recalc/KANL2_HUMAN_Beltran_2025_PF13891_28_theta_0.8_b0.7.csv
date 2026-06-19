@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+KANL2_HUMAN_Beltran_2025_PF13891_28,3348,3353,0.9985087980912616,197.84129406935978,3.0912702198337465,64,61,0.953125

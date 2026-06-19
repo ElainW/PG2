@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+PRDM8_HUMAN_Beltran_2025_PF00096_668,3796,3798,0.9994734070563455,19.447244816438157,0.9260592769732456,21,21,1.0

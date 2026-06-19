@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+NEB1_HUMAN_Beltran_2025_PF07647_987,50561,50603,0.9991700096832203,2990.792373949666,47.47289482459787,63,61,0.9682539682539683

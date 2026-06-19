@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+KDM1A_HUMAN_Beltran_2025_PF04433_186,2826,2829,0.9989395546129375,129.75363661671182,1.6424510964140737,79,79,1.0

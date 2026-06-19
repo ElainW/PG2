@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+FHL1_HUMAN_Beltran_2025_PF00412_99,49498,49552,0.9989102357119793,1063.7094607452418,17.728491012420697,60,54,0.9

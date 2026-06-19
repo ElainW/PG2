@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+CSPA_ECOLI_Beltran_2025_PF00313_3,80772,81019,0.9969513324035103,5933.713931330768,87.26049899015835,68,62,0.9117647058823529

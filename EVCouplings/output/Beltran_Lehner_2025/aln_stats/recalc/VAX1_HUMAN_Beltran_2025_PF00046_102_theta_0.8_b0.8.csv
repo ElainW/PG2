@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+VAX1_HUMAN_Beltran_2025_PF00046_102,244705,245289,0.9976191349795547,4475.409963382409,79.91803506040016,56,56,1.0

@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+HECD1_HUMAN_Beltran_2025_PF18410_1892,3476,3477,0.999712395743457,101.90477242451288,1.4985995944781307,68,66,0.9705882352941176

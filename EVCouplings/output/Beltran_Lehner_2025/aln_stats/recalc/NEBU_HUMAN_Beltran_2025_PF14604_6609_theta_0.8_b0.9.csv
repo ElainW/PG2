@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+NEBU_HUMAN_Beltran_2025_PF14604_6609,248690,248836,0.9994132681766303,5958.5315118296,97.68084445622296,61,51,0.8360655737704918

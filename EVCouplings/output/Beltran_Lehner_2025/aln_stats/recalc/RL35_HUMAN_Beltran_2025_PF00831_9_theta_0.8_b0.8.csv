@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+RL35_HUMAN_Beltran_2025_PF00831_9,26669,26784,0.9957063918757467,4125.8831023828025,75.01605640696005,55,51,0.9272727272727272

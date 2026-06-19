@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+BLK_HUMAN_Beltran_2025_PF00018_59,72917,72972,0.9992462862467796,2388.021974799799,40.47494872542032,59,50,0.847457627118644

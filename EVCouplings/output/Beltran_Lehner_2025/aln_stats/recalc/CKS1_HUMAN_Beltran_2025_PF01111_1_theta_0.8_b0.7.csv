@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+CKS1_HUMAN_Beltran_2025_PF01111_1,4101,4128,0.9934593023255814,357.018885677386,4.519226400979569,79,72,0.9113924050632911

@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+GFI1_HUMAN_Beltran_2025_PF00096_256,3321,3324,0.9990974729241877,27.916829944038653,1.2137752149582024,23,22,0.9565217391304348

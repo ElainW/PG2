@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+MCM10_HUMAN_Beltran_2025_PF09329_383,4026,4031,0.9987596129992558,615.3298807491349,13.673997349980775,45,44,0.9777777777777777

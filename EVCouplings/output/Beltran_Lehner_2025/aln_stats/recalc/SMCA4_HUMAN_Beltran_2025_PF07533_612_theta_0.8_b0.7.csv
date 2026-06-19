@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+SMCA4_HUMAN_Beltran_2025_PF07533_612,24071,24077,0.9997507995182124,464.56381574550653,10.803809668500152,43,39,0.9069767441860465

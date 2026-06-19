@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+PDLI2_HUMAN_Beltran_2025_PF00412_284,134950,135008,0.9995703958283954,2265.361586057457,40.45288546531173,56,51,0.9107142857142857

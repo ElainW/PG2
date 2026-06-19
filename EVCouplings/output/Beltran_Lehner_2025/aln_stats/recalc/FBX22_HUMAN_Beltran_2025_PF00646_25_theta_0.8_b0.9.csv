@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+FBX22_HUMAN_Beltran_2025_PF00646_25,1166,1167,0.9991431019708654,140.58282481983707,3.5145706204959266,40,39,0.975

@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+RAF1_HUMAN_Beltran_2025_PF02196_58,6115,6123,0.9986934509227503,122.83861776035943,1.7301213769064707,71,68,0.9577464788732394

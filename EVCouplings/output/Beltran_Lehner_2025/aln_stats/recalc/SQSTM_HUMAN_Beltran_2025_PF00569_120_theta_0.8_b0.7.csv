@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+SQSTM_HUMAN_Beltran_2025_PF00569_120,50802,50830,0.9994491442061775,4452.353817172136,85.62218879177183,52,44,0.8461538461538461

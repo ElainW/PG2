@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+ZMYM3_HUMAN_Beltran_2025_PF06467_405,8822,8825,0.9996600566572238,194.41290113912845,4.8603225284782114,40,36,0.9

@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+KDM1B_HUMAN_Beltran_2025_PF07496_139,1715,1716,0.9994172494172494,54.81099535657931,1.0540576030111406,52,51,0.9807692307692307

@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+GA2L1_HUMAN_Beltran_2025_PF02187_209,29648,29661,0.9995617140352652,172.40497188699706,2.53536723363231,68,66,0.9705882352941176

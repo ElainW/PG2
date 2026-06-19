@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+GABPA_HUMAN_Beltran_2025_PF02198_172,16885,16922,0.9978134972225505,607.6088147718967,7.691250819897427,79,73,0.9240506329113924

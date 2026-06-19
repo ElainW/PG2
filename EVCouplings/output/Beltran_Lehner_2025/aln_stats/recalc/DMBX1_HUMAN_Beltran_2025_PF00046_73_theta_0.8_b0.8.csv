@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+DMBX1_HUMAN_Beltran_2025_PF00046_73,235042,235596,0.9976485169527496,4451.5882269865915,79.49264691047485,56,55,0.9821428571428571

@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+TIF1B_HUMAN_Beltran_2025_PF00628_620,155283,155361,0.9994979434993339,4259.724165131325,81.91777240637164,52,43,0.8269230769230769

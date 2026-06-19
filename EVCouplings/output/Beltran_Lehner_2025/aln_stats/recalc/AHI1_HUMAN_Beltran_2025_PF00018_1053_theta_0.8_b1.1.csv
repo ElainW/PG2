@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+AHI1_HUMAN_Beltran_2025_PF00018_1053,107427,107488,0.9994324947901161,2479.8333677166374,43.505848556432234,57,51,0.8947368421052632

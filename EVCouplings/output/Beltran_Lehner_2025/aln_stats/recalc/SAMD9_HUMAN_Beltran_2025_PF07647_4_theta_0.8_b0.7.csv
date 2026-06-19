@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+SAMD9_HUMAN_Beltran_2025_PF07647_4,3551,3583,0.9910689366452693,387.9192808177447,5.31396275092801,73,67,0.9178082191780822

@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+RERE_HUMAN_Beltran_2025_PF00320_502,63579,63610,0.9995126552428863,1728.3496820942278,41.15118290700542,42,33,0.7857142857142857

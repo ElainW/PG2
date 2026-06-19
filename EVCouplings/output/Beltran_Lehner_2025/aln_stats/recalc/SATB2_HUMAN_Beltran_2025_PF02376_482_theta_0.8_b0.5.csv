@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+SATB2_HUMAN_Beltran_2025_PF02376_482,12531,12564,0.9973734479465138,77.56167232943312,1.0341556310591082,75,68,0.9066666666666666

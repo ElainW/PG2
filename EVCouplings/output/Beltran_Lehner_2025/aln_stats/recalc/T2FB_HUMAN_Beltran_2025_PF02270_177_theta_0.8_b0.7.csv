@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+T2FB_HUMAN_Beltran_2025_PF02270_177,4579,4586,0.9984736153510685,476.06767690530995,7.438557451645468,64,64,1.0

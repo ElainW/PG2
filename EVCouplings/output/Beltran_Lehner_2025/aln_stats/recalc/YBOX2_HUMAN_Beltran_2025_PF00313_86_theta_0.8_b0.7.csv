@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+YBOX2_HUMAN_Beltran_2025_PF00313_86,35232,35379,0.9958449927923344,3287.5724058206706,35.73448267196381,92,64,0.6956521739130435

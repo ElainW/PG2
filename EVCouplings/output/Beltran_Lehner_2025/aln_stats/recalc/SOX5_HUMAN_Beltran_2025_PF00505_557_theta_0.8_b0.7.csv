@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+SOX5_HUMAN_Beltran_2025_PF00505_557,92742,92933,0.9979447558994115,5295.8406439276305,77.88000946952398,68,67,0.9852941176470589

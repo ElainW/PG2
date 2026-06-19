@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+SUOX_HUMAN_Beltran_2025_PF00173_87,42385,42455,0.998351195383347,6610.20366061983,89.32707649486257,74,68,0.918918918918919

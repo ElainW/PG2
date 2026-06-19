@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+TDRD3_HUMAN_Beltran_2025_PF00567_554,41836,41884,0.9988539776525642,5103.925259177927,87.99871136513667,58,49,0.8448275862068966

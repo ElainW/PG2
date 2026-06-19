@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+RBX2_HUMAN_Beltran_2025_PF12678_48,6097,6111,0.997709049255441,325.6425407759614,5.81504537099931,56,52,0.9285714285714286

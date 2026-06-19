@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+LATS1_HUMAN_Beltran_2025_PF00627_98,12812,12823,0.9991421664197145,839.8389726118654,19.087249377542395,44,36,0.8181818181818182

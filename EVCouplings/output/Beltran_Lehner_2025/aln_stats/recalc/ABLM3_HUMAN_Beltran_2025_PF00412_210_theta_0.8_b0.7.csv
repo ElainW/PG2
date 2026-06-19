@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+ABLM3_HUMAN_Beltran_2025_PF00412_210,56922,56999,0.9986490991070018,668.8050878533777,11.733422593918908,57,53,0.9298245614035088

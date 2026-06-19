@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+RFC1_HUMAN_Beltran_2025_PF00533_405,28759,28790,0.9989232372351511,4735.600826529868,63.14134435373157,75,71,0.9466666666666667

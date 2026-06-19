@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+RXRA_HUMAN_Beltran_2025_PF00105_132,103592,103830,0.9977077915823943,3211.7647932944965,41.71123108174671,77,72,0.935064935064935

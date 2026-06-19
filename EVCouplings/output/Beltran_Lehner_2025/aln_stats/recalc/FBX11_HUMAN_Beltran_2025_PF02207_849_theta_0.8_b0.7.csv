@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+FBX11_HUMAN_Beltran_2025_PF02207_849,12086,12105,0.998430400660884,359.825625539759,7.822296207386065,46,43,0.9347826086956522

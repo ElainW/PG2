@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+TRI18_HUMAN_Beltran_2025_PF00643_172,47719,47775,0.9988278388278389,1366.6719757641367,31.783069203817135,43,37,0.8604651162790697

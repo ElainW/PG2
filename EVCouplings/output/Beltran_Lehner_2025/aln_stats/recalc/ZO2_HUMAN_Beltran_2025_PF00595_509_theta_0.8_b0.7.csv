@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+ZO2_HUMAN_Beltran_2025_PF00595_509,17198,17220,0.9987224157955865,171.03008090290876,1.80031664108325,95,91,0.9578947368421052

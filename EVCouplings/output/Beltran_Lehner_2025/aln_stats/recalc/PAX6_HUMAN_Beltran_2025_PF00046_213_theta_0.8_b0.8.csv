@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+PAX6_HUMAN_Beltran_2025_PF00046_213,237446,237999,0.9976764608254657,4506.108368899355,81.92924307089736,55,54,0.9818181818181818

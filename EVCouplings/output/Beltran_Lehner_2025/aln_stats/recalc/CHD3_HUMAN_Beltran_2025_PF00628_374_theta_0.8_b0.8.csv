@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+CHD3_HUMAN_Beltran_2025_PF00628_374,153236,153313,0.999497759485497,4376.632706710716,82.57797559831539,53,44,0.8301886792452831

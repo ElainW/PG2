@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+BAZ2B_HUMAN_Beltran_2025_PF00628_1927,142482,142541,0.9995860840039006,4389.547104520667,78.38476972358333,56,44,0.7857142857142857

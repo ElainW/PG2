@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+SPTA1_HUMAN_Beltran_2025_PF00018_979,119540,119600,0.9994983277591973,3095.262592155694,53.366596416477485,58,51,0.8793103448275862

@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+LIN41_HUMAN_Beltran_2025_PF00643_274,17500,17512,0.9993147555961627,1167.8660497086428,27.159675574619598,43,39,0.9069767441860465

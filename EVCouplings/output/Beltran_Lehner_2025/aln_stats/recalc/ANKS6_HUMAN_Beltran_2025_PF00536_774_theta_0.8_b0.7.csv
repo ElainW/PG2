@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+ANKS6_HUMAN_Beltran_2025_PF00536_774,41989,42017,0.9993336030654258,2321.47273330823,36.84877354457508,63,56,0.8888888888888888

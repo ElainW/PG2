@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+CALL4_HUMAN_Beltran_2025_PF13499_48,53999,54187,0.9965305331537084,4934.175463384139,64.92336136031763,76,68,0.8947368421052632

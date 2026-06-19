@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+S100G_BOVIN_Beltran_2025_PF01023_1,13609,13788,0.9870176965477226,1275.150085953494,16.14114032852524,79,74,0.9367088607594937

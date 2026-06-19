@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+PARD3_HUMAN_Beltran_2025_PF00595_457,299059,299228,0.9994352132821794,2612.3863129241154,28.090175407786187,93,83,0.8924731182795699

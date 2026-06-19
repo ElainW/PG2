@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+TRIM6_HUMAN_Beltran_2025_PF00643_93,79403,79593,0.997612855401857,4032.4079187968264,96.00971235230539,42,36,0.8571428571428571

@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+WWTR1_HUMAN_Beltran_2025_PF00397_116,121199,121252,0.9995628938079372,4357.762944694285,92.71836052541032,47,34,0.723404255319149

@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+PO3F1_HUMAN_Beltran_2025_PF00157_247,23082,23156,0.9968042839868716,136.94312932047512,1.7556811451342964,78,75,0.9615384615384616

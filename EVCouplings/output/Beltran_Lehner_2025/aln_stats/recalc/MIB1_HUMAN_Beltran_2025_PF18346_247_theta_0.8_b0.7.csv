@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+MIB1_HUMAN_Beltran_2025_PF18346_247,10969,10982,0.9988162447641595,508.5241342490061,7.823448219215479,65,63,0.9692307692307692

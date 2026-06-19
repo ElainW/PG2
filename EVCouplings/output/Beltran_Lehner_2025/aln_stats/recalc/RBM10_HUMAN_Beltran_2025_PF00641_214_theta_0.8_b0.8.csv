@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+RBM10_HUMAN_Beltran_2025_PF00641_214,39066,39097,0.9992071002890247,2634.084126429551,94.07443308676967,28,25,0.8928571428571429

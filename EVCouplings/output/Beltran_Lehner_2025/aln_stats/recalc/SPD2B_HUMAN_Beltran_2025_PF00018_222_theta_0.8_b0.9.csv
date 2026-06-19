@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+SPD2B_HUMAN_Beltran_2025_PF00018_222,45557,45592,0.9992323214599053,947.7074667297903,16.06283841914899,59,53,0.8983050847457628

@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+DJC21_HUMAN_Beltran_2025_PF12171_315,10005,10008,0.9997002398081535,1010.5728549293925,40.4229141971757,25,23,0.92

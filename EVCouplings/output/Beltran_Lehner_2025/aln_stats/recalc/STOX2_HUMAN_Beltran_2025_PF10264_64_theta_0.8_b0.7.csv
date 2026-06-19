@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+STOX2_HUMAN_Beltran_2025_PF10264_64,4172,4180,0.9980861244019139,115.60710139333767,1.4821423255556112,78,78,1.0

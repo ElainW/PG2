@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+PRD15_HUMAN_Beltran_2025_PF00096_1085,154482,154562,0.9994824083539292,1702.5261896835866,77.38755407652667,22,21,0.9545454545454546

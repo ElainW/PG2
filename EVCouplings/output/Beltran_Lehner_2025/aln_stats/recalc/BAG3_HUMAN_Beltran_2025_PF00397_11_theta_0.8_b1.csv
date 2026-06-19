@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+BAG3_HUMAN_Beltran_2025_PF00397_11,66395,66425,0.9995483628152051,2303.0434112011244,47.00088594288009,49,35,0.7142857142857143

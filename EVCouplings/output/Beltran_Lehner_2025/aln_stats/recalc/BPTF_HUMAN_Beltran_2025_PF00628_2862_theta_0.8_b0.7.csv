@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+BPTF_HUMAN_Beltran_2025_PF00628_2862,61100,61127,0.9995582966610499,3446.4000272911326,60.46315837352864,57,48,0.8421052631578947

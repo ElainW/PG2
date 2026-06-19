@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+SASH1_HUMAN_Beltran_2025_PF00536_630,36924,36955,0.9991611419293736,578.9036199093086,8.153572111398713,71,61,0.8591549295774648

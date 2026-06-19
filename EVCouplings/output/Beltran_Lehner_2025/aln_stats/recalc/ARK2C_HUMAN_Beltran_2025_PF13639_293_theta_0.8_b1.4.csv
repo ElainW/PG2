@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+ARK2C_HUMAN_Beltran_2025_PF13639_293,66970,67002,0.9995224023163488,3407.535657273102,79.24501528542098,43,42,0.9767441860465116

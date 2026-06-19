@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+HM20A_HUMAN_Beltran_2025_PF00505_104,117839,118091,0.9978660524510758,6376.699827170505,95.17462428612694,67,64,0.9552238805970149

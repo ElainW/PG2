@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+ANK3_HUMAN_Beltran_2025_PF00531_4094,35197,35210,0.9996307867083215,147.37721059238592,1.8894514178511015,78,78,1.0

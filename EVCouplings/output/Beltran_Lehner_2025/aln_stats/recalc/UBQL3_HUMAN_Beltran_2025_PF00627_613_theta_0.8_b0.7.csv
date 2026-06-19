@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+UBQL3_HUMAN_Beltran_2025_PF00627_613,10781,10796,0.9986105965172286,963.8285168745462,22.414616671501072,43,40,0.9302325581395349

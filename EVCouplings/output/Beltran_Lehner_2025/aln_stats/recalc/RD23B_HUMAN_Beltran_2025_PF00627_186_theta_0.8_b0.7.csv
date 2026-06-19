@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+RD23B_HUMAN_Beltran_2025_PF00627_186,32335,32355,0.9993818575181579,2389.276636036098,53.09503635635773,45,38,0.8444444444444444

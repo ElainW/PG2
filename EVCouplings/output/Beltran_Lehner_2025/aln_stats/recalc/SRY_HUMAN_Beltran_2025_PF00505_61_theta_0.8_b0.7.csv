@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+SRY_HUMAN_Beltran_2025_PF00505_61,97574,97777,0.9979238471215112,5476.383984943585,80.53505860211155,68,67,0.9852941176470589

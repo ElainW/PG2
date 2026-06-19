@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+TOP3A_HUMAN_Beltran_2025_PF06839_896,25158,25176,0.9992850333651097,3406.7426962707823,79.22657433187865,43,41,0.9534883720930233

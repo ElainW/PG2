@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+CRX_HUMAN_Beltran_2025_PF00046_41,236107,236676,0.9975958694586692,4455.575593954889,79.56384989205159,56,54,0.9642857142857143

@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+YAP1_HUMAN_Beltran_2025_PF00397_165,103330,103378,0.9995356845750547,3412.7571870154316,74.19037363077025,46,33,0.717391304347826

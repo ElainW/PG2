@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+XRCC6_HUMAN_Beltran_2025_PF02037_558,4059,4068,0.9977876106194691,962.6316606954069,18.51214732106552,52,45,0.8653846153846154

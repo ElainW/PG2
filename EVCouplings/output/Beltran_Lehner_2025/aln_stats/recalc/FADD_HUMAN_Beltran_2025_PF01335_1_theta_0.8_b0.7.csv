@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+FADD_HUMAN_Beltran_2025_PF01335_1,6391,6419,0.9956379498364231,868.5376451936515,10.099274944112228,86,78,0.9069767441860465

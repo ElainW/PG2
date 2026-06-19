@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+PR40A_HUMAN_Beltran_2025_PF01846_670,6148,6153,0.9991873882658866,158.5235642609871,2.882246622927038,55,55,1.0

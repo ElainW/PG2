@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+SPTN1_HUMAN_Beltran_2025_PF13499_2327,15252,15263,0.9992793028893402,144.37879841399405,1.977791759095809,73,65,0.8904109589041096

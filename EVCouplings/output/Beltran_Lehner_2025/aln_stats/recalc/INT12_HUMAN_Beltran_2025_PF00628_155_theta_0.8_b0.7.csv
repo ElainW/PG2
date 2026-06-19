@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+INT12_HUMAN_Beltran_2025_PF00628_155,8742,8750,0.9990857142857142,663.5594599804448,11.246770508143133,59,53,0.8983050847457628

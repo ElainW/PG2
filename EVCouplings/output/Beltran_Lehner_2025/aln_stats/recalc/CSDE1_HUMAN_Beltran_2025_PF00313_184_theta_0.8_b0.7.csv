@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+CSDE1_HUMAN_Beltran_2025_PF00313_184,21345,21378,0.998456357002526,961.251464542705,13.538753021728239,71,63,0.8873239436619719

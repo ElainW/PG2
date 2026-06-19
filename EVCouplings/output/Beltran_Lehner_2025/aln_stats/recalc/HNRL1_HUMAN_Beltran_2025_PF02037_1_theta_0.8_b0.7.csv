@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+HNRL1_HUMAN_Beltran_2025_PF02037_1,41164,41224,0.9985445371628178,4105.374522170468,97.74701243263019,42,33,0.7857142857142857

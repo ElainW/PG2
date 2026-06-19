@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+PIN1_HUMAN_Beltran_2025_PF00397_1,173858,173923,0.9996262713959626,3817.27508474549,95.43187711863725,40,32,0.8

@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+CRGA_HUMAN_Beltran_2025_PF00030_85,48836,49177,0.9930658641234723,1030.9947812301343,11.584211025057689,89,81,0.9101123595505618

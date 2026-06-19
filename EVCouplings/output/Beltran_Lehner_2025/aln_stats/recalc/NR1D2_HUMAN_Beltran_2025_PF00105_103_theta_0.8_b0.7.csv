@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+NR1D2_HUMAN_Beltran_2025_PF00105_103,103928,104131,0.9980505325023288,3150.760682420171,45.66319829594451,69,67,0.9710144927536232

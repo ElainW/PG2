@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+ARID2_HUMAN_Beltran_2025_PF02257_523,18341,18356,0.9991828285029418,297.1412232724933,3.714265290906166,80,74,0.925

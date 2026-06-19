@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+PO3F4_HUMAN_Beltran_2025_PF00046_280,51296,51381,0.9983456919873105,1270.1138488525141,22.680604443794895,56,55,0.9821428571428571

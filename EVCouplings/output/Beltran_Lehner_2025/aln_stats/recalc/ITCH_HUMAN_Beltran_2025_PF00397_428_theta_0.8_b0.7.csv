@@ -1,0 +1,2 @@
+protein,num_seqs,num_seqs_unfiltered,perc_filtered,n_eff,n_eff_l,seq_len,num_cov,perc_cov
+ITCH_HUMAN_Beltran_2025_PF00397_428,115307,115365,0.9994972478654705,1704.9616794491017,34.09923358898203,50,37,0.74
