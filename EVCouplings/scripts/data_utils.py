@@ -140,6 +140,7 @@ class MSA_processing:
             columns_gaps_frac = gaps_array[seq_below_threshold].mean(axis=0)
             index_cols_below_threshold = columns_gaps_frac <= self.threshold_focus_cols_frac_gaps
 #             print("Proportion of non-focus columns removed: "+str(round(float(1 - index_cols_below_threshold.sum()/index_cols_below_threshold.shape[0])*100,2))+"%")
+            del msa_array, gaps_array
             # Lower case non focus cols and filter fragment sequences
             msa_df['sequence'] = msa_df['sequence'].apply(lambda x: ''.join([aa.upper() if upper_case_ind else aa.lower() for aa, upper_case_ind in zip(x, index_cols_below_threshold)]))
             msa_df = msa_df[seq_below_threshold]
@@ -189,12 +190,3 @@ class MSA_processing:
             seq_names_to_remove = list(set(seq_names_to_remove))
             for seq_name in seq_names_to_remove:
                 del self.seq_name_to_sequence[seq_name]
-
-        # Encode the sequences
-        self.one_hot_encoding = np.zeros((len(self.seq_name_to_sequence.keys()),len(self.focus_cols),len(self.alphabet)))
-        for i,seq_name in enumerate(self.seq_name_to_sequence.keys()):
-            sequence = self.seq_name_to_sequence[seq_name]
-            for j,letter in enumerate(sequence):
-                if letter in self.aa_dict: 
-                    k = self.aa_dict[letter]
-                    self.one_hot_encoding[i,j,k] = 1.0
