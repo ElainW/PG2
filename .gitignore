@@ -72,3 +72,5 @@ scoring_scripts/test/TranceptEVE_aggregation_coefficients_log
 scoring_scripts/test/s3f_dataset/
 scoring_scripts/test/slurm/
 scoring_scripts/test/pg_baselines/__pycache__/
+EVCouplings/output/Beltran_Lehner_2025/all_EVmutation/
+EVCouplings/output/Beltran_Lehner_2025/all_models/
