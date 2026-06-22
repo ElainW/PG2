@@ -74,3 +74,11 @@ scoring_scripts/test/slurm/
 scoring_scripts/test/pg_baselines/__pycache__/
 EVCouplings/output/Beltran_Lehner_2025/all_EVmutation/
 EVCouplings/output/Beltran_Lehner_2025/all_models/
+
+DMS_assays/notebooks_assays/Untitled.ipynb
+DMS_assays/notebooks_assays/Untitled2.ipynb
+EVCouplings/output/PG1/Tranception_PG1_models/
+EVCouplings/output/PG1/Tranception_PG1_models_all_EVmutation/
+EVCouplings/output/PG1/all_EVmutation/
+EVCouplings/scripts/*.err
+EVCouplings/scripts/*.log
