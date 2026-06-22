@@ -3,7 +3,7 @@
 #SBATCH -p priority
 #SBATCH --mem=20G
 #SBATCH -J tranception_evmutation_scoring
-#SBATCH -t 0-03:00
+#SBATCH -t 0-02:00
 #SBATCH -o tranception_evmutation_scoring.log
 #SBATCH -e tranception_evmutation_scoring.err
 
@@ -23,3 +23,5 @@ for i in {0..216}; do
     --DMS_index $i \
     --model_suffix "_b*"
 done
+
+# DMS index 31 184 185 needed 40G

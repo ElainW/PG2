@@ -3,7 +3,7 @@
 #SBATCH -p priority
 #SBATCH --mem=20G
 #SBATCH -J navami_evmutation_scoring
-#SBATCH -t 0-03:00
+#SBATCH -t 0-02:00
 #SBATCH -o navami_evmutation_scoring.log
 #SBATCH -e navami_evmutation_scoring.err
 
@@ -23,3 +23,5 @@ for i in {0..216}; do
     --DMS_index $i \
     --model_suffix "_seqcov50_colcov50_theta*_b*"
 done
+
+# DMS index 24 took over 40G, 31 took 40G
