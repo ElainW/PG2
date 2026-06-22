@@ -980,7 +980,7 @@
         },
         "Unirep": {
             "input_score_name": "Unirep_score",
-            "location": "UniRep",
+            "location": "Unirep",
             "directionality": 1,
             "key": "mutated_sequence",
             "model_type": "Single sequence"
@@ -1072,7 +1072,7 @@
             "model_type": "MSA"
         },
         "EVE": {
-            "input_score_name": "EVE_evol_index",
+            "input_score_name": "evol_indices_seed_0",
             "location": "EVE",
             "directionality": 1,
             "key": "mutant",
