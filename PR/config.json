@@ -1092,13 +1092,6 @@
             "key": "mutated_sequence",
             "model_type": "MSA"
         },
-        "SiteRM": {
-            "input_score_name": "SiteRM_score",
-            "location": "SiteRM",
-            "directionality": 1,
-            "key": "mutant",
-            "model_type": "MSA"
-        },
         "PoET-2": {
             "input_score_name": "PoET-2",
             "location":"PoET2",
