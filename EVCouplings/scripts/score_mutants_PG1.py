@@ -29,6 +29,7 @@ if __name__ == "__main__":
     parser.add_argument('--model_folder', type=str, help="Path to EVcouplings model folder")
     parser.add_argument('--output_scores_folder', type=str, help="Path to output score folder")
     parser.add_argument('--DMS_index', type=int, help="Index of DMS assay to score")
+    parser.add_argument('--model_suffix', type=str, help="String after UniProt_ID")
     args = parser.parse_args()
     mapping = pd.read_csv(args.DMS_reference_file_path)
 
@@ -44,7 +45,7 @@ if __name__ == "__main__":
     # bitscore is one of {0.03, 0.04, 0.05, 0.1, 0.3, 0.5} - not every combination
     # necessarily has a model (some EVcouplings runs fail), so both are wildcarded.
     # Each matched theta/bitscore combination is a distinct model, scored separately.
-    model_pattern = f"{args.model_folder}/{UniProt_ID}_seqcov50_colcov50_theta*_b*.model"
+    model_pattern = f"{args.model_folder}/{UniProt_ID}{args.model_suffix}.model"
     matched_models = glob(model_pattern)
 
     if len(matched_models) > 0:
