@@ -449,6 +449,13 @@
             "key": "mutated_sequence",
             "model_type": "MSA"
         },
+        "PoET-2": {
+            "input_score_name": "PoET-2",
+            "location":"PoET2",
+            "directionality":1,
+            "key":"mutated_sequence",
+            "model_type":"Structure & MSA"
+        },
         "MULAN_small": {
             "input_score_name": "MULAN_score",
             "location": "MULAN/MULAN_small",
