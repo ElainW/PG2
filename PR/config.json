@@ -856,7 +856,14 @@
             "directionality": 1,
             "key": "mutated_sequence",
             "model_type": "MSA"
-        }
+        },
+        "PoET-2": {
+            "input_score_name": "PoET-2",
+            "location":"PoET2",
+            "directionality":1,
+            "key":"mutated_sequence",
+            "model_type":"Structure & MSA"
+        },
     },
     "model_list_zero_shot_indels_clinical": {
         "HMM": {
@@ -984,7 +991,14 @@
             "directionality": 1,
             "key": "mutated_sequence",
             "model_type": "MSA"
-        }
+        },
+        "PoET-2": {
+            "input_score_name": "PoET-2",
+            "location":"PoET2",
+            "directionality":1,
+            "key":"mutated_sequence",
+            "model_type":"Structure & MSA"
+        },
     },
     "model_list_zero_shot_substitutions_clinical": {
         "LRT": {
@@ -1084,7 +1098,14 @@
             "directionality": 1,
             "key": "mutant",
             "model_type": "MSA"
-        }
+        },
+        "PoET-2": {
+            "input_score_name": "PoET-2",
+            "location":"PoET2",
+            "directionality":1,
+            "key":"mutated_sequence",
+            "model_type":"Structure & MSA"
+        },
     },
     "model_list_supervised_substitutions_clinical": {
         "ClinPred": {
