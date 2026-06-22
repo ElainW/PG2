@@ -8,7 +8,7 @@ from evcouplings.mutate import predict_mutation_table, single_mutant_matrix
 import calculations
 
 
-def score_multi_aa(DMS_filename, DMS_id, DMS_folder, output_score_folder, couplings_model, offset=0):
+def score_multi_aa(DMS_filename, DMS_id, DMS_folder, output_score_folder, couplings_model, bitscore, offset=0):
     """
     Makes EVcouplings predictions (epistatic and independent) for multi-AA mutants. Calculates Spearman between
     predictions and DMS dataset.
@@ -19,7 +19,7 @@ def score_multi_aa(DMS_filename, DMS_id, DMS_folder, output_score_folder, coupli
     data = calculations.predict_mutation_table(c, data, "prediction_epistatic", sep=":", offset=offset)
     data = calculations.predict_mutation_table(c0, data, "prediction_independent", sep=":", offset=offset)
     model_basename = os.path.splitext(os.path.basename(couplings_model))[0]
-    data.to_csv(os.path.join(output_score_folder, model_basename + ".csv"), index=False)
+    data.to_csv(os.path.join(output_score_folder, DMS_id + "_" + bitscore + ".csv"), index=False)
 
 
 if __name__ == "__main__":
@@ -49,11 +49,13 @@ if __name__ == "__main__":
 
     if len(matched_models) > 0:
         for f in matched_models:
+            bitscore = os.path.basename(f).split('_')[-1].removesuffix('.model')
             score_multi_aa(DMS_filename=DMS_filename,
-                            DMS_id=DMS_id,
-                            DMS_folder=args.DMS_data_folder,
-                            output_score_folder=args.output_scores_folder,
-                            couplings_model=f,
-                            offset=offset)
+                           DMS_id=DMS_id,
+                           DMS_folder=args.DMS_data_folder,
+                           output_score_folder=args.output_scores_folder,
+                           couplings_model=f,
+                           bitscore=bitscore,
+                           offset=offset)
     else:
         print(f"No model file for: {DMS_id} (UniProt_ID: {UniProt_ID}, expected pattern: {model_pattern})")
