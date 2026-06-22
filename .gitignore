@@ -80,5 +80,5 @@ DMS_assays/notebooks_assays/Untitled2.ipynb
 EVCouplings/output/PG1/Tranception_PG1_models/
 EVCouplings/output/PG1/Tranception_PG1_models_all_EVmutation/
 EVCouplings/output/PG1/all_EVmutation/
-EVCouplings/scripts/*.err
-EVCouplings/scripts/*.log
+EVCouplings/scripts/PG1/*.err
+EVCouplings/scripts/PG1/*.log
